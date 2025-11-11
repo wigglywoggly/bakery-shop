@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>html form(pg1)</title>
+<style>
+body {
+background-repeat: no-repeat;
+                background-image: url('https://i.pinimg.com/originals/13/df/48/13df4839f5f96b8580ca0b09a790202c.jpg');
+                background-size: 100% 100%;
+                background-attachment: fixed;
+                }
+h1 {
+	font-size:60px;
+	}
+legend {
+	font-size:30px;
+		}
+fieldset {
+	color:white;
+	}
+</style>
+</head>
+<body>
+<h1 style="color:white;">The bakery shop</h1>
+<form action="orderconfirmation.html">
+<fieldset>
+<legend style="color:white;">please fill in the form below</legend>
+Cake flavour:
+<select name="flavour">
+<option>Red velvet</option>
+<option>Tiramisu</option>
+<option>Cheesecake</option>
+<option>Chocolate</option>
+<option>Strawberry</option>
+</select>
+<input type="submit">
+<br>
+<br>
+Receiver's Name:
+        <input type="text" size="40" pattern="[A-Z]+" placeholder="Capital Letter" required>
+        <br>
+        <br>
+        Address:
+        <input type="text" size="100"required>
+        <br>
+        <br>
+        Phone Number:
+        <input type="number" pattern="[0-9]">
+        Email:
+        <input type="email" size="40"required>
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="SUBMIT">
+        <input type="reset" value="RESET">
+        </form>
+    </body>
+</html>
